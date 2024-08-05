@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <h1>Calculadora de médias</h1>
+        <form action="#" class="formulario">
+            <div>
+                <input type="text" placeholder="Nome da atividade" class="atividade" required>
+                <input type="number" placeholder="Nota" class="nota" min="0" max="10" required>
+                <button type="submit">Adicionar +</button>
+            </div>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome da atividade</th>
+                    <th>Nota</th>
+                    <th>Aprovado</th>
+                </tr>
+            </thead>
+            <tbody class="tabelaCorpo">
+        
+            </tbody>
+            <tfoot>
+                <tr class="resultado">
+                    <td>Média final</td>
+                    <td>_</td>
+                    <td>_</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
